@@ -43,7 +43,7 @@ const onSubmit = async (event) => {
                   <div className='contact-details'>
                       <div className="contact-detail-1">
                           <img id='Cont-detail-icon' src={mail_icon} alt="" />
-                          <p>manav1304@gmail.com</p>
+                          <p>jadhavmanav0@gmail.com</p>
                       </div>
                       <div className="contact-detail-1">
                           <img id='Cont-detail-icon' src={phone_icon} alt="" />
@@ -55,7 +55,7 @@ const onSubmit = async (event) => {
                       </div>
                   </div>
               </div>
-              <form onSubmit={onSubmit}  className="contact-right">
+              {/* <form onSubmit={onSubmit}  className="contact-right">
                   <label htmlFor="">Your name:</label>
                       <input type="text" placeholder='enter your name:' name='name' required/>
                       <label htmlFor="">your email</label>
@@ -64,7 +64,7 @@ const onSubmit = async (event) => {
                   <textarea name="message" rows="8" placeholder='Enter your message' required></textarea>
                   <button className='contact-submit' type='submit'>Submit Now</button>
                   
-              </form>
+              </form> */}
       </div>
           
     </div>

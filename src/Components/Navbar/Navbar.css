@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin: 20px 50px;
     position: fixed;
+    z-index: 1000;
     /* border: 2px solid red; */
     width: 90%;
     /* background-color: gray; */

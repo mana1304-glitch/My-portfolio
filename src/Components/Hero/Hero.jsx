@@ -4,7 +4,8 @@ import profile_img from '../../assets/manavimg2.jpg';
 const Hero = () => {
   return (
     <div id='home' className='hero'>
-          <img className='profile-img1' src={profile_img} alt="" />
+      <img className='profile-img1' src={profile_img} alt="" />
+      {/* <div className='profile-img1'><img src={profile_img} alt="" /> </div> */}
           <h2><span>I'am Manav Jadhav, Passionate about technology, AI & 
         Web Developement</span>.
       </h2>
